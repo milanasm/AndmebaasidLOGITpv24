@@ -26,7 +26,7 @@ SQL-kood ja lühikonspekt andmebaaside teemal.
   - XAMPP
   - SQL Server Management Studio
 
-фотка
+<img width="566" height="524" alt="изображение" src="https://github.com/user-attachments/assets/f5994c47-3fd2-4a68-9b18-ba5bc0cfefb2" />
 
 ## Võtmed
 
@@ -102,8 +102,8 @@ VALUES
 - **Üks-mitmele** - näiteks ema → lapsed
 - **Mitu-mitmele** - näiteks õpilased ↔ õpetajad
 
+<img width="195" height="521" alt="изображение" src="https://github.com/user-attachments/assets/6b8932cb-a1b3-4c8a-9fe5-34effd0c743e" />
 
-фотка
 ---
 
 # Piirangud
