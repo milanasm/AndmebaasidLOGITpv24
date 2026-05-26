@@ -21,7 +21,7 @@ toiduaine_id int primary key identity(1,1),
 toiduaine_nimi varchar(100)
 );
 
--- ühik
+-- Ã¼hik
 create table yhik(
 yhik_id int primary key identity(1,1),
 yhik_nimi varchar(100)
@@ -78,7 +78,7 @@ constraint FK_tehtud_retsept
 	references retsept(retsept_id),
 );
 
--- hinnang
+-- hinnang (oma)
 create table hinnang(
 hinnang_id int primary key identity (1,1),
 hinne int check (hinne between 1 and 5),
@@ -94,7 +94,7 @@ constraint FK_hinnang_retsept
 insert into kasutaja(eesnimi,perenimi,email)
 values
 ('Milana','Smolenko','smolenkomilana@gmail.com'),
-('Tymofii','Úmolenko','tymofii16@gmail.com'),
+('Tymofii','Ãšmolenko','tymofii16@gmail.com'),
 ('Karolina','Oshlakova','karolinabebe@gmail.com'),
 ('Anastasiia','Lebedeva','sixseven@gmail.com'),
 ('Oleg','Burmalda','slavamerlou@gmail.com');
@@ -106,7 +106,7 @@ values
 ('Vorstid'),
 ('Salat'),
 ('Pannkoogid'),
-('Borð'),
+('BorÃ°'),
 ('Kotletid');
 select * from kategooria
 
@@ -133,10 +133,10 @@ select * from yhik
 -- info retsept
 insert into retsept(retsepti_nimi,kirjeldus,juhend,sisestatud_kp,kasutaja_id,kategooria_id)
 values
-('Pannkoogid','Maitsvad pannkoogid','Sega ja küpseta',getdate(),1,1),
+('Pannkoogid','Maitsvad pannkoogid','Sega ja kÃ¼pseta',getdate(),1,1),
 ('Vorstid','Maitsvad grillvorstid','Prae grillil',getdate(),2,4),
-('Tomatisupp','Borð tomatiga','Keeda supp',getdate(),3,2),
-('Salat','Värske salat','Sega koostisosad',getdate(),4,3),
+('Tomatisupp','BorÃ° tomatiga','Keeda supp',getdate(),3,2),
+('Salat','VÃ¤rske salat','Sega koostisosad',getdate(),4,3),
 ('Kakao','Soe jook','Kuumuta piim',getdate(),5,5);
 select * from retsept
 
@@ -163,7 +163,7 @@ select * from tehtud
 -- info hinnang
 insert into hinnang(hinne,kommentaar,retsept_id)
 values
-(5,'Väga hea',1),
+(5,'VÃ¤ga hea',1),
 (4,'Maitsev',2),
 (3,'Normaalne',3),
 (5,'Super',4),
@@ -214,7 +214,7 @@ set @sql =
 exec sp_executesql @sql;
 end;
 
--- PROTSEDUURID (lisatöö)
+-- PROTSEDUURID (oma)
 -- 1
 create procedure lisaHinnang
 @hinne int,
@@ -275,7 +275,7 @@ use RetseptiMS;
 create user staff for login staff;
 create user manager for login manager;
 
--- staff õigused
+-- staff Ãµigused
 grant select on kasutaja to staff;
 grant select, insert
 on toiduaine to staff;
@@ -286,7 +286,7 @@ on toiduaine to staff;
 deny update, delete
 on kategooria to staff;
 
--- manager õigused
+-- manager Ãµigused
 grant select on kasutaja to manager;
 deny insert on kasutaja to manager;
 grant select, update, delete
