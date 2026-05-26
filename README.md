@@ -8,7 +8,7 @@ SQL-kood ja lühikonspekt andmebaaside teemal.
 
 - [Põhimõisted](#põhimõisted)
 - [Andmetüübid](#andmetüübid)
-- [SQL - Structured Query Language](#sql--structured-query-language)
+- [SQL](#sql)
 - [Tabelivahelised seosed](#tabelivahelised-seosed)
 - [Piirangud](#piirangud)
 - [ALTER TABLE](#alter-table)
