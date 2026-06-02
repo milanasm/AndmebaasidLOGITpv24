@@ -124,5 +124,6 @@ DENY SELECT, DELETE ON logi TO sekretaarIrina
 
 <img width="1266" height="222" alt="{A0A4C0FB-92BB-430F-B445-681472961BBE}" src="https://github.com/user-attachments/assets/422e9679-3bcc-48c7-b991-5842aabe898f" />
 
+<img width="607" height="246" alt="{24911B33-9A25-4C43-B130-EF57E8FEC0C5}" src="https://github.com/user-attachments/assets/81d412f0-79cb-4f2d-b881-1627acb44055" />
 
 
