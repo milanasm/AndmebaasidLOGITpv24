@@ -64,3 +64,5 @@ SELECT * FROM Customer;
 SELECT * FROM Product;
 SELECT * FROM Sale;
 ```
+
+<img width="399" height="372" alt="{7A74E503-F27E-4440-B453-B8ED2191456F}" src="https://github.com/user-attachments/assets/05e0534b-f9b9-43d5-a29e-3b6520432211" />
