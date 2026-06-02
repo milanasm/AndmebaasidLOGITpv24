@@ -1,4 +1,6 @@
-# Andmebaasid
+# Andmebaaside Milana Smolenko Konspektid
+
+[Põhimõisted](README.md)  [Trigerid](triger.md) [Protseduurid](protseduurms.md) [Võtmed/Keys].(kodutoo.md)
 
 SQL-kood ja lühikonspekt andmebaaside teemal.
 
