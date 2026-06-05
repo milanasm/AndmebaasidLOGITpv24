@@ -1,3 +1,7 @@
+# Stored Procedure / SQL Server / XAMPP
+
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutajad.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
+
 Store procedure - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab automaatselt teha (INSERT, UPDATE, SELECT, UPDATE).
 
 # SQL Server Management
