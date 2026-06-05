@@ -1,4 +1,5 @@
-# Triger - päästik
+# Ülesanne: Triggerid/Kasutajad/Õigused - SQLServer/localhost
+## Triger - päästik
 
 [Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutajad.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
 
