@@ -1,3 +1,7 @@
+# ÜL1: CREATE TABLE, ALTER TABLE laused.
+
+
+
 ```sql
 create database AlterCreate;
 use AlterCreate;
