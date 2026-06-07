@@ -1,4 +1,7 @@
 # Kasutaja loomine SQL Serveris
+
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
+
 ## SQL Server
 ```sql
 create database MovieBase;
