@@ -1,7 +1,7 @@
 # Ülesanne: Triggerid/Kasutajad/Õigused - SQLServer/localhost
 ## Triger - päästik
 
-[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutajad.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
 
 ### SQL triggerid on spetsiaalsed andmebaasi objektid, mis käivituvad automaatselt, kui toimub teatud sündmus (nt INSERT, UPDATE või DELETE).
 ```sql
