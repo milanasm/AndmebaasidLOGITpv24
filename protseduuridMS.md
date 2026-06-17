@@ -101,22 +101,23 @@ create procedure minmaxSaldo
 as
 begin
 select
-@minSaldo = MIN(saldo),
-@maxSaldo = MAX(saldo)
+@minSaldo = min(saldo),
+@maxSaldo = max(saldo)
 from klient;
 end;
+
 --kontroll
-DECLARE @min money,
+declare @min money,
         @max money;
 EXEC minmaxSaldo
-@minSaldo = @min OUTPUT,
-@maxSaldo = @max OUTPUT;
+@minSaldo = @min output,
+@maxSaldo = @max output;
 
-PRINT 'Min saldo = ' + CAST(@min AS varchar(20));
-PRINT 'Max saldo = ' + CAST(@max AS varchar(20));
+print concat('Min saldo = ', @min);
+print concat('Max saldo = ', @max);
 ```
 
-<img width="773" height="781" alt="изображение" src="https://github.com/user-attachments/assets/61ffc894-0fbc-4c68-8286-61ac78ffad46" />
+<img width="332" height="420" alt="{3368E68B-0B1A-4CA0-AC60-4A827D4F226A}" src="https://github.com/user-attachments/assets/8c958cf7-3122-454a-b548-5428688d471f" />
 
 ```sql
 -- CASE
