@@ -1,6 +1,6 @@
 # Andmebaaside Milana Smolenko Konspektid
 
-[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys](KeysMS.md)
 
 SQL-kood ja lühikonspekt andmebaaside teemal.
 
