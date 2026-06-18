@@ -1,6 +1,7 @@
+# Kodutöö: Võtmed/Keys
 
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(KeysMS.md)
 
-# KEYS
 ## Primary Key  
 Definitsioon: Veerg või veergude kombinatsioon, mis identifitseerib tabeli iga rea.<br>
 Milleks kasutatakse: Tagab duplikaatide puudumise tabelis ja tagab, et iga rida on unikaalselt identifitseeritud.<br>
