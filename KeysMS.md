@@ -1,6 +1,6 @@
 # Kodutöö: Võtmed/Keys
 
-[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(KeysMS.md)
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys](KeysMS.md)
 
 ## Primary Key  
 Definitsioon: Veerg või veergude kombinatsioon, mis identifitseerib tabeli iga rea.<br>
