@@ -1,6 +1,6 @@
 # ÜL1: CREATE TABLE, ALTER TABLE laused.
 
-[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys].(kodutoo.md)
+[Põhimõisted](README.md) | [Trigerid](triger.md) | [Kasutajad](kasutaja.md) | [CREATE TABLE/ALTER TABLE](Create_alter.md) | [Protseduurid](protseduuridMS.md) | [Võtmed/Keys](KeysMS.md)
 
 ### Tabeli saab luua käsu CREATE TABLE abil. Kasutaja peab määrama tabeli nime ja väljade (veergude) loetelu. Iga veeru jaoks määratakse tingimata selle nimi ja tüüp, kuid tavaliselt määratletakse ka parameetrid ja piirangud kui ühe veeru jaoks (colum_constraint) kui terve tabeli (table_constraint) jaoks.
 
